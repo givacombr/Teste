@@ -1,0 +1,4 @@
+Tarefas:
+1 - Comprar lâmpada do banheiro.
+2 - Dar banho no cachorro.
+3 - Alugar terno.
