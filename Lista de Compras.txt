@@ -1,0 +1,6 @@
+Realizar compras
+1 - Café
+2 - Leite em Pó
+3 - Açucar
+4 - Arroz
+5 - Feijão
