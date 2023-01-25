@@ -1,6 +1,9 @@
 Realizar compras
-1 - Café
-2 - Leite em Pó
-3 - Açucar
-4 - Arroz
-5 - Feijão
+1 - Café ok
+2 - Leite em Pó ok
+3 - Açucar ok
+4 - Arroz ok
+5 - Feijão ok
+6 - Cebola
+7 - Coentro
+8 - Tomate
