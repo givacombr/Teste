@@ -80,7 +80,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1111, 38);
+            this.menuStrip1.Size = new System.Drawing.Size(1111, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -95,10 +95,9 @@
             this.raçaToolStripMenuItem,
             this.profissionalToolStripMenuItem,
             this.funçãoToolStripMenuItem});
-            this.cadastroToolStripMenuItem.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
             this.cadastroToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.U)));
-            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
+            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(82, 26);
             this.cadastroToolStripMenuItem.Text = "Cadastro";
             // 
             // usuariosToolStripMenuItem
