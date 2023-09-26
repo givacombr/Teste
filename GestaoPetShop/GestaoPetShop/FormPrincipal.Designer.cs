@@ -58,12 +58,12 @@
             this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.agendamentoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.agendamentoServicosDataGridView = new System.Windows.Forms.DataGridView();
-            this.agendamentoServicosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.quantidadeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.valorUnitarioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tempoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.agendamentoServicosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.agendamentoDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.agendamentoBindingSource)).BeginInit();
@@ -80,7 +80,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1111, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1111, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -97,7 +97,7 @@
             this.funçãoToolStripMenuItem});
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
             this.cadastroToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.U)));
-            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(82, 26);
+            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
             this.cadastroToolStripMenuItem.Text = "Cadastro";
             // 
             // usuariosToolStripMenuItem
@@ -384,11 +384,6 @@
             this.agendamentoServicosDataGridView.TabIndex = 8;
             this.agendamentoServicosDataGridView.Visible = false;
             // 
-            // agendamentoServicosBindingSource
-            // 
-            this.agendamentoServicosBindingSource.DataMember = "AgendamentoServicos";
-            this.agendamentoServicosBindingSource.DataSource = this.agendamentoBindingSource;
-            // 
             // idDataGridViewTextBoxColumn
             // 
             this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
@@ -433,6 +428,11 @@
             this.tempoDataGridViewTextBoxColumn.Name = "tempoDataGridViewTextBoxColumn";
             this.tempoDataGridViewTextBoxColumn.ReadOnly = true;
             this.tempoDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // agendamentoServicosBindingSource
+            // 
+            this.agendamentoServicosBindingSource.DataMember = "AgendamentoServicos";
+            this.agendamentoServicosBindingSource.DataSource = this.agendamentoBindingSource;
             // 
             // FormPrincipal
             // 
