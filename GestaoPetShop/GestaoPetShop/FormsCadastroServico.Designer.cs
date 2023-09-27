@@ -46,6 +46,10 @@
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.button_SalvarServico = new System.Windows.Forms.Button();
             this.button_CancelarCadastroOuAlterar = new System.Windows.Forms.Button();
+            this.splitter1 = new System.Windows.Forms.Splitter();
+            this.splitter2 = new System.Windows.Forms.Splitter();
+            this.splitter3 = new System.Windows.Forms.Splitter();
+            this.splitter4 = new System.Windows.Forms.Splitter();
             ativoLabel = new System.Windows.Forms.Label();
             descricaoLabel = new System.Windows.Forms.Label();
             idLabel = new System.Windows.Forms.Label();
@@ -231,6 +235,53 @@
             this.button_CancelarCadastroOuAlterar.UseVisualStyleBackColor = false;
             this.button_CancelarCadastroOuAlterar.Click += new System.EventHandler(this.button_CancelarCadastroOuAlterar_Click);
             // 
+            // splitter1
+            // 
+            this.splitter1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.splitter1.Location = new System.Drawing.Point(0, 0);
+            this.splitter1.Margin = new System.Windows.Forms.Padding(4);
+            this.splitter1.Name = "splitter1";
+            this.splitter1.Padding = new System.Windows.Forms.Padding(9);
+            this.splitter1.Size = new System.Drawing.Size(3, 353);
+            this.splitter1.TabIndex = 18;
+            this.splitter1.TabStop = false;
+            // 
+            // splitter2
+            // 
+            this.splitter2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.splitter2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.splitter2.Location = new System.Drawing.Point(529, 0);
+            this.splitter2.Margin = new System.Windows.Forms.Padding(4);
+            this.splitter2.Name = "splitter2";
+            this.splitter2.Padding = new System.Windows.Forms.Padding(9);
+            this.splitter2.Size = new System.Drawing.Size(3, 353);
+            this.splitter2.TabIndex = 19;
+            this.splitter2.TabStop = false;
+            // 
+            // splitter3
+            // 
+            this.splitter3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.splitter3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.splitter3.Location = new System.Drawing.Point(3, 0);
+            this.splitter3.Margin = new System.Windows.Forms.Padding(4);
+            this.splitter3.Name = "splitter3";
+            this.splitter3.Padding = new System.Windows.Forms.Padding(9);
+            this.splitter3.Size = new System.Drawing.Size(526, 3);
+            this.splitter3.TabIndex = 20;
+            this.splitter3.TabStop = false;
+            // 
+            // splitter4
+            // 
+            this.splitter4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.splitter4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.splitter4.Location = new System.Drawing.Point(3, 350);
+            this.splitter4.Margin = new System.Windows.Forms.Padding(4);
+            this.splitter4.Name = "splitter4";
+            this.splitter4.Padding = new System.Windows.Forms.Padding(9);
+            this.splitter4.Size = new System.Drawing.Size(526, 3);
+            this.splitter4.TabIndex = 21;
+            this.splitter4.TabStop = false;
+            // 
             // FormsCadastroServico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -239,6 +290,10 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.button_SalvarServico;
             this.ClientSize = new System.Drawing.Size(532, 353);
+            this.Controls.Add(this.splitter4);
+            this.Controls.Add(this.splitter3);
+            this.Controls.Add(this.splitter2);
+            this.Controls.Add(this.splitter1);
             this.Controls.Add(this.button_CancelarCadastroOuAlterar);
             this.Controls.Add(this.button_SalvarServico);
             this.Controls.Add(this.label2_AlterarServico);
@@ -283,5 +338,9 @@
         private System.Windows.Forms.Button button_SalvarServico;
         private System.Windows.Forms.Button button_CancelarCadastroOuAlterar;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Splitter splitter1;
+        private System.Windows.Forms.Splitter splitter2;
+        private System.Windows.Forms.Splitter splitter3;
+        private System.Windows.Forms.Splitter splitter4;
     }
 }
