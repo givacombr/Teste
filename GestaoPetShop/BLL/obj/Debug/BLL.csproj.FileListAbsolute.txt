@@ -1,0 +1,2 @@
+C:\Users\nsistema\Documents\Git\givacombr\Modelagem\GestaoPetShop\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\nsistema\Documents\Git\givacombr\Modelagem\GestaoPetShop\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache

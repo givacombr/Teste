@@ -1,0 +1,2 @@
+C:\Users\nsistema\Documents\Git\givacombr\Modelagem\GestaoPetShop\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\nsistema\Documents\Git\givacombr\Modelagem\GestaoPetShop\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache

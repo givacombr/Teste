@@ -1,0 +1,4 @@
+C:\Users\nsistema\Documents\Git\givacombr\Modelagem\GestaoPetShop\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+C:\Users\nsistema\Documents\Git\givacombr\Modelagem\GestaoPetShop\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\nsistema\Documents\Git\givacombr\Modelagem\GestaoPetShop\Models\obj\Debug\Models.dll
+C:\Users\nsistema\Documents\Git\givacombr\Modelagem\GestaoPetShop\Models\obj\Debug\Models.pdb
